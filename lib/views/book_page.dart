@@ -19,9 +19,8 @@ class _BookPageState extends State<BookPage> {
         children: [
           Container(
               width: 200,
-              height: 250,
+              height: 280,
               decoration: BoxDecoration(
-                color: Colors.amber[200],
                 borderRadius: BorderRadius.circular(20),
                 image: DecorationImage(
                     image: AssetImage('images/cover-roro.png'),
